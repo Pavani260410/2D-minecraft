@@ -67,10 +67,6 @@ if(keyPressed == 87) {
 newimage('wall.png');
 console.log('w');
 }
-if(keyPressed == 80) {
-    newimage('player.png');
-    console.log('p');
-    }
 if(keyPressed == 71) {
     newimage('ground.png');
     console.log('g');
