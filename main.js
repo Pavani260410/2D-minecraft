@@ -47,6 +47,14 @@ block_image_height += 10;
 document.getElementById('current_width').innerHTML = block_image_width;
 document.getElementById('current_height').innerHTML = block_image_height;
 }
+if(e.shiftKey && keyPressed == '77')
+{
+	console.log("M and shift pressed together");
+	block_image_width = block_image_width - 10;
+	block_image_height = block_image_height - 10;
+	document.getElementById("current_width").innerHTML = block_image_width;
+	document.getElementById("current_height").innerHTML = block_image_height;
+}
 if(keyPressed == 38) {
     up();
     console.log('up arrow key');
